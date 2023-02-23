@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Orbitron-Bold';
+    src: url(../fonts/Orbitron-Bold.ttf);
+}
+
+
 .clsopenbox-header{
     background-image: url("../images/background/2.png");
     background-repeat: no-repeat;
@@ -20,6 +26,7 @@
 }
 
 .clsopenbox-primary{
+    font-family: 'Orbitron-Bold';
     background: #40b4b4;
     border: 1px solid #40b4b4;
 }
@@ -35,6 +42,7 @@
 }
 
 .clsopenbox-warning{
+    font-family: 'Orbitron-Bold';
     background: #f86b24;
     border: 1px solid #f86b24;
 }
@@ -49,9 +57,12 @@
 }
 
 .clsopenbox-text-white{
+    font-family: 'Orbitron-Bold';
+    font-size: 18px;
     color: #ffffff;
 }
 
 .clsopenbox-text-primary{
+    font-family: Arial;
     color: #00ffe4;
 }
