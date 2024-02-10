@@ -1,0 +1,82 @@
+@font-face {
+  font-family: jura;
+  src: url('../assets/fonts/Jura-Bold.otf');
+}
+
+.spin-bg{
+  background-image: url("spin-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.modal{
+  background: rgba(0, 0, 0, 0.7);
+}
+.container{
+  margin-top: 100px;
+}
+
+.modal-content{
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+#spin{
+  font-family: jura;
+}
+.btn-close{
+  color: #fff;
+}
+
+.modal-footer{
+  border: unset;
+}
+
+
+.wrapper {
+  margin: 0 0 30px;
+  position: relative;
+}
+.pointer-wrapper {
+  position: absolute;
+  top: -25px;
+  left: 44%;
+  z-index: 1;
+}
+.button {
+  margin: 0 0 40px;
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 250px;
+  height: 60px;
+  color: #ffffff;
+  background: #e01a22;
+  padding: 17px;
+}
+.btn:hover {
+  background: #f08d90;
+}
+.btn:focus {
+  outline: 0;
+}
+
+.spinner-text{
+  font-size: 35px;
+  color: #11f7eb;
+  font-family: 'Jura', sans-serif;
+  font-weight: bold;
+}
+
+.spinner-body-text{
+  font-size: 16px;
+  color: #fff;
+  font-family: orbitron, sans-serif;
+}
